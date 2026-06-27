@@ -1,0 +1,147 @@
+/*CSS by Arik Christensen */
+/* Color Palette 
+beige: #e3e7d3ff;
+silver: #bdc2bfff;
+grey-olive: #989c94ff;
+charcoal-brown: #25291cff;
+vanilla-custard: #e6e49fff;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+}
+
+header {
+    background-color: #25291cff;
+    color: #e6e49fff;
+    margin: .5 rem;
+    font-size: x-large;
+    text-align: right;
+}
+
+nav {
+    background-color: #989c94ff;
+    padding: 2.5rem;
+    text-align: right;
+}
+nav h1 {
+    color: #25291cff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #25291cff;
+}
+
+nav a:hover {
+    text-decoration: #bdc2bfff;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+#projects div {
+    background-color: #e6e49fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    border-style: dashed;
+}
+
+#projects h2 {
+    color: #25291cff;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+}
+
+#projects p {
+    margin-left: 5rem;
+}
+
+#projects h4 {
+    margin-left: 5rem;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+#resume {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+#resume section {
+    background-color: #e6e49fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    border-style: dashed;
+}
+
+#resume h2 {
+    color: #25291cff;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+}
+
+#resume p {
+    margin-left: 5rem;
+}
+
+#resume h4 {
+    margin-left: 5rem;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+#bio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+#bio section {
+    background-color: #e6e49fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    border-style: dashed;
+}
+
+#bio h2 {
+    color: #25291cff;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+}
+
+#bio p {
+    margin-left: 5rem;
+}
+
+#bio h4 {
+    margin-left: 5rem;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #25291cff;
+    color: #e6e49fff;
+    text-align: center;
+    padding: 1rem;
+}
