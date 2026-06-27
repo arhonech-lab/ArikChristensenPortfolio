@@ -139,6 +139,17 @@ nav a:hover {
     margin-bottom: 1rem;
 }
 
+#home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+#home p {
+    margin-left: 5rem;
+}
+
 footer {
     background-color: #25291cff;
     color: #e6e49fff;
